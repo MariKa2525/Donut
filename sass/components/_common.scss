@@ -1,0 +1,149 @@
+
+body {
+    color: $primary-text-color;
+    background-color: $white-color;
+
+    font-family: $base-font-family;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;  
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+    @include mobile {
+        width: 480px;
+    }
+    @include tablet {
+        width: 768px;
+    }
+    @include desktop {
+        width: 1200px;
+    }
+
+    &--header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        @include desktop {
+            max-width: 1200px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &--mobile-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 0;
+    }
+
+    &--hero {
+        text-align: center;
+
+        @include tablet {
+            padding: 118px 204px;
+        }
+    }
+
+    &--footer {
+        display: block;
+        text-align: center;
+        width: 100%;
+
+        @include tablet {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+
+        @include desktop {
+            text-align: left;
+            flex-wrap: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 0;
+        }
+    }
+}
+
+.section {
+    padding: 60px 0;
+    @include desktop {
+        padding: 94px 0;;
+    }
+
+    &--feature {
+        @include desktop {
+            padding-bottom: 0;
+        }
+    }
+
+    &--team {
+        background-color: $light-gray-bg;
+    }
+
+    &.no-padding {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    &__title {
+        margin-top: 0;
+        margin-bottom: 30px;
+
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.18;
+        text-align: center;
+        color: $title-text-color; 
+
+        @include desktop {
+            font-size: 36px;
+            line-height: 1.17;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.title-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+

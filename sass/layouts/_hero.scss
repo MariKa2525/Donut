@@ -1,0 +1,83 @@
+.hero {
+    display: flex;
+    padding: 118px 0;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    height: 400px;
+    margin: 0 auto;
+    
+    background-color: $background-hero;
+    background-image: $gradient,
+    url(../image/fon-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient( to right,
+    rgba(47, 48, 58, 0.5),
+    rgba(47, 48, 58, 0.5)),
+    url(../image/fon-mob-2x.jpg);
+    }
+    
+    @include tablet {
+    background-image: linear-gradient( to right,
+    rgba(47, 48, 58, 0.5),
+    rgba(47, 48, 58, 0.5)),
+    url(../image/fon-tab.jpg);
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient( to right,
+    rgba(47, 48, 58, 0.5),
+    rgba(47, 48, 58, 0.5)),
+    url(../image/fon-tab-2x.jpg);
+    }
+    }
+
+    @include desktop {
+    background-image: linear-gradient( to right,
+    rgba(47, 48, 58, 0.5),
+    rgba(47, 48, 58, 0.5)),
+    url(../image/fon-des.jpg);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient( to right,
+    rgba(47, 48, 58, 0.5),
+    rgba(47, 48, 58, 0.5)),
+    url(../image/fon-des-2x.jpg);
+    }
+    padding: 200px 0;
+    height: 600px;
+    }
+
+    &__title {
+        margin: auto;
+        margin-bottom: 30px;
+        
+        color: $white-color;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 1.61;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        max-width: 360px;
+        
+        @include mobile {
+            font-size: 26px;
+        }
+
+        @include desktop {
+            font-size: 44px;
+            line-height: 1.36;
+            max-width: 696px;
+        }
+    }
+}

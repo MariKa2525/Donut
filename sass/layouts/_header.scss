@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid $border-gray;
+    @include tablet {
+        height: 80px;
+    }
+
+    @include desktop {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+

@@ -1,0 +1,94 @@
+.navbar  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    @include tablet {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    @include desktop {
+        width: auto;
+    }
+    
+    &__list {
+        display: none;
+
+        @include tablet {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 87px;
+            margin-right: 96px;
+        }
+    }
+    
+    &__item {
+        @include tablet {  
+            &:not(:first-child) {
+                margin-left: 50px;
+            }
+        
+            &:hover {
+                .navbar__link {
+                color: $accent-color;
+                }
+            }
+        
+            &:focus {
+                .navbar__link {
+                    color: $accent-color;
+                }
+            }
+        
+            &--active {
+                .navbar__link {
+                    color: $accent-color;
+                }
+            }
+        }
+    } 
+
+    &__link {
+        @include tablet {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            color: $title-text-color;   
+        
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 4px;
+                border-radius: 2px;
+                
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        }
+    }
+        
+    &__item--active &__link::after {
+        @include tablet {
+            background-color: $accent-color;
+        }
+    }
+}
+
