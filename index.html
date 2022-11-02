@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>   
 <link rel="stylesheet" href="./css/styles.css"/>
 <link rel="stylesheet" href="./css/main.min.css" />
@@ -98,366 +98,17 @@
         <!--Герой-->
         <section class="hero">
             <div class="container container--hero">
-                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-                <button data-modal-open type="button" name="button" class="button button__primary">Замовити послугу</button>
-            </div>
-        </section>
-
-        <!--Особливості роботи-->
-        <section class="section section--feature">
-            <div class="container">
-                <h2 class="title-hidden">Особливості</h2>
-                <ul class="feature__list list">
-                    <li class="feature__item">
-                        <div class="feature__card">
-                            <svg class="feature__icon" width="70px" height="70px">
-                                <use   href="./image/icons.svg#icon-antenna"></use>
-                            </svg>
-                        </div>
-                        <h3 class="feature__title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="feature__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                    </li>
-                    <li class="feature__item">
-                        <div class="feature__card">
-                            <svg class="feature__icon" width="70px" height="70px">
-                                <use  href="./image/icons.svg#icon-clock"></use>
-                            </svg>
-                        </div>
-                        <h3 class="feature__title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="feature__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                    </li>
-                    <li class="feature__item">
-                        <div class="feature__card">
-                            <svg class="feature__icon" width="70px" height="70px">
-                                <use  href="./image/icons.svg#icon-diagram"></use>
-                            </svg>
-                        </div>
-                        <h3 class="feature__title">ПЛАНУВАННЯ</h3>
-                        <p class="feature__text"> Так само консультація з широким активом значною мірою зумовлює.</p>
-                    </li>
-                    <li class="feature__item">
-                        <div class="feature__card">
-                        <svg class="feature__icon" width="70px" height="70px">
-                            <use  href="./image/icons.svg#icon-astronaut"></use>
-                        </svg>
-                        </div>
-                        <h3 class="feature__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="feature__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!--Приклади роботи-->
-        <section class="section work">
-            <div class="container">
-                <h2 class="section__title">Чим ми займаємося</h2>
-                <ul class="work__list list">
-                    <li class="work__item">
-                        <picture>
-                            <source srcset="./image/box-1.jpg 1x, 
-                            ./image/box1-2x.jpg 2x" 
-                            media="(min-widht: 1200px)" />
-                            <img class="work__img" src="./image/box-1.jpg" alt="Робоче місце" />
-                        </picture>                        
-                        <p class="work__text">Десктопні додатки</p>
-                    </li>
-                    <li class="work__item">
-                        <picture>
-                            <source srcset="./image/box-2.jpg 1x, 
-                            ./image/box2-2x.jpg 2x" 
-                            media="(min-widht: 1200px)" />
-                            <img class="work__img" src="./image/box-2.jpg" alt="Ноутбук" />
-                        </picture>                        
-                        <p class="work__text">Мобільні додатки</p>
-                    </li>
-                    <li class="work__item">
-                        <picture>
-                            <source srcset="./image/box-3.jpg 1x, 
-                            ./image/box3-2x.jpg 2x" 
-                            media="(min-widht: 1200px)" />
-                            <img class="work__img" src="./image/box-3.jpg" alt="Планшет" />
-                        </picture>                       
-                        <p class="work__text">Дизайнерські рішення</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!--Команда-->
-        <section class="section section--team">
-            <div class="container">
-                <h2 class="section__title">Наша команда</h2>
-                <ul class="team__list list">
-                    <li class="team-card">
-                        <picture>
-                            <source srcset="./image/team-card1-des.jpg 1x, 
-                            ./image/team-card1-des-2x.jpg 2x" 
-                            media="(min-widht: 1200px)" />
-                            <source srcset="./image/team-card1-tab.jpg 1x,
-                            ./image/team-card1-tab-2x.jpg 2x" 
-                            media="(min-widht: 768px)" />
-                            <source srcset="./image/team-card1-mob.jpg 1x,
-                            ./image/team-card1-mob-2x.jpg 2x" 
-                            media="(min-widht: 320px)" />
-                            <img class="team-card__img" src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
-                        </picture>                        
-                        <div class="team-card__item">
-                            <h3 class="team-card__title">Ігор Дем'яненко</h3>
-                            <p class="team-card__profession">Product Designer</p>
-                            <ul class="social-network list">
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                        <use href="./image/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                        <use href="./image/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                        <use href="./image/icons.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                        <use href="./image/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="team-card">
-                        <picture>
-                            <source srcset="./image/team-card2-des.jpg 1x, 
-                            ./image/team-card2-des-2x.jpg 2x" 
-                            media="(min-widht: 1200px)" />
-                            <source srcset="./image/team-card2-tab.jpg 1x,
-                            ./image/team-card2-tab-2x.jpg 2x" 
-                            media="(min-widht: 768px)" />
-                            <source srcset="./image/team-card2-mob.jpg 1x,
-                            ./image/team-card2-mob-2x.jpg 2x" 
-                            media="(min-widht: 320px)" />
-                            <img class="team-card__img" src="./image/team-card-2.jpg" alt="Ольга Рєпіна" />
-                        </picture>                        
-                        <div class="team-card__item">
-                            <h3 class="team-card__title">Ольга Рєпіна</h3>
-                            <p class="team-card__profession">Frontend Developer</p>
-                            <ul class="social-network list">
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="team-card">
-                        <picture>
-                            <source srcset="./image/team-card3-des.jpg 1x, 
-                            ./image/team-card3-des-2x.jpg 2x" 
-                            media="(min-widht: 1200px)" />
-                            <source srcset="./image/team-card3-tab.jpg 1x,
-                            ./image/team-card3-tab-2x.jpg 2x" 
-                            media="(min-widht: 768px)" />
-                            <source srcset="./image/team-card3-mob.jpg 1x,
-                            ./image/team-card3-mob-2x.jpg 2x" 
-                            media="(min-widht: 320px)" />
-                            <img class="team-card__img" src="./image/team-card-3.jpg" alt="Микола Тарасов" />
-                        </picture>                        
-                        <div class="team-card__item">
-                            <h3 class="team-card__title">Микола Тарасов</h3>
-                            <p class="team-card__profession">Marketing</p>
-                            <ul class="social-network list">
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="team-card">
-                        <picture>
-                            <source srcset="./image/team-card4-des.jpg 1x, 
-                            ./image/team-card4-des-2x.jpg 2x" 
-                            media="(min-widht: 1200px)" />
-                            <source srcset="./image/team-card4-tab.jpg 1x,
-                            ./image/team-card4-tab-2x.jpg 2x" 
-                            media="(min-widht: 768px)" />
-                            <source srcset="./image/team-card4-mob.jpg 1x,
-                            ./image/team-card4-mob-2x.jpg 2x" 
-                            media="(min-widht: 320px)" />
-                            <img class="team-card__img" src="./image/team-card-4.jpg" alt="Михайло Єрмаков" />
-                        </picture>                        
-                        <div class="team-card__item">
-                            <h3 class="team-card__title">Михайло Єрмаков</h3>
-                            <p class="team-card__profession">UI Designer</p>
-                            <ul class="social-network list">
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-network__item">
-                                    <a href="" class="social-network__link">
-                                        <svg class="social-network__icon" width="20px" height="20px">
-                                            <use href="./image/icons.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <h2 class="section__title">Постійні клієнти</h2>
-                <ul class="client__list list">
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg class="client__icon" width="106px" height="60px">
-                                <use href="./image/icons.svg#icon-Logo5"></use>
+                <h1 class="hero__title">Donut Masterclass with the Donut King</h1>
+                <p class="hero__text">Hosted by Eva Green</p>
+                <button data-modal-open type="button" name="button" class="button button__primary">Register</button>
+                <ul class="social-network list">
+                    <li class="social-network__item">
+                        <a href="" class="social-network__footer-link social-network__link">
+                            <svg class="team-icon" width="20px" height="20px">
+                                <use href="./image/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg class="client__icon" width="106px" height="60px">
-                                <use href="./image/icons.svg#icon-Logo4"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg class="client__icon" width="106px" height="60px">
-                                <use href="./image/icons.svg#icon-Logo3"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg class="client__icon" width="106px" height="60px">
-                                <use href="./image/icons.svg#icon-Logo2"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg class="client__icon" width="106px" height="60px">
-                                <use href="./image/icons.svg#icon-Logo1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg class="client__icon" width="106px" height="60px">
-                                <use href="./image/icons.svg#icon-Logo0"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <!--Футер-->
-    <footer class="footer">
-        <div class="container container--footer">
-            <div class="footer__wrap">
-                <a href="./index.html" class="logo logo--footer">
-                    <span class="logo__text">Web</span>Studio</a>
-                <address class="info">
-                    <a href="https://goo.gl/maps/m37v5d8VHXMpui1S7" target="_blank" rel="noopener noreferrer"
-                    class="info__location">м. Київ, пр-т Лесі Українки, 26</a>
-                    <ul class="info__contacts list">
-                        <li class="info__item">
-                            <a href="mailto:info@devstudio.com" class="info__link">info@devstudio.com </a>
-                        </li>
-                        <li class="info__item">
-                            <a href="tel:+380961111111" class="info__link">+38 096 111 11 11 </a>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-            <div class="footer__inner">
-                <p class="footer__header">Приєднуйтесь</p>
-                <ul class="social-network social-network--footer list">
                     <li class="social-network__item">
                         <a href="" class="social-network__footer-link social-network__link">
                             <svg class="social-network__icon" width="20px" height="20px">
@@ -468,42 +119,396 @@
                     <li class="social-network__item">
                         <a href="" class="social-network__footer-link social-network__link">
                             <svg class="team-icon" width="20px" height="20px">
-                                <use href="./image/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-network__item">
-                        <a href="" class="social-network__footer-link social-network__link">
-                            <svg class="team-icon" width="20px" height="20px">
                                 <use href="./image/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-network__item">
-                        <a href="" class="social-network__footer-link social-network__link">
-                            <svg class="social-network__icon" width="20px" height="20px">
-                                <use href="./image/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="footer__email">
-                <p class="footer__header">Підпишіться на розсилку</p>
-                <form class="email">
-                    <label>
-                        <input class="email__input" type="email" name="email" placeholder="E-mail" />
-                    </label>
-                    <button  type="submit" name="button" class="button button__primary button--email">Підписатися
-                        <svg  width="24px" height="24px">
-                            <use href="./image/icons.svg#icon-icon-send"></use>
-                        </svg>
-                    </button>
-                </form>
-            </div>
-        </div>
-    </footer>
+        </section>
 
+        <!--About us -->
+        <section class="section section--about">
+            <div class="container">
+                <picture class="about__image">
+                        <source srcset="./image/team-card1-des.jpg 1x, 
+                        ./image/team-card1-des-2x.jpg 2x" 
+                        media="(min-widht: 1200px)" />
+                        <source srcset="./image/team-card1-tab.jpg 1x,
+                        ./image/team-card1-tab-2x.jpg 2x" 
+                        media="(min-widht: 768px)" />
+                        <source srcset="./image/team-card1-mob.jpg 1x,
+                        ./image/team-card1-mob-2x.jpg 2x" 
+                        media="(min-widht: 320px)" />
+                        <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                    </picture>               
+                <h2 class="about__title">About us</h2>
+                <p class="about__text">Oh My Donut is the shop which adores tasty deserts and spend hours to create sophisticated donuts which will save the world!</p>
+                <p class="about__text">Eva has been baking since she was six years old and over the last 49 years, she has created hundreds of cakes for weddings and has baked for many celebrities. Eva and our shop have received multiple awards & recognition for excellence.</p>
+                <a href="#" class="about__link">Read more</a>
+        </section>
+
+        <!--Program-->
+        <section class="section program">
+            <div class="container">
+                <h2 class="program__title">Program</h2>
+                <p class="program__text">Indulge in this immersive sweet treat experience with The Chef Donut Queen in her New York donut shop!</p>
+                <ul class="program__list list">
+                    <li class="program__item">
+                        <p class="program__rules"> A stand up history of donuts</p>
+                    </li>
+                    <li class="program__item">
+                        <p class="program__rules">Make 3 donut flavors of your choice</p>
+                    </li>
+                    <li class="program__item">
+                        <p class="program__rules">Enjoy all-you-can-eat donuts</p>
+                    </li>
+                    <li class="program__item">
+                        <p class="program__rules">Cocktail pairings and coffee included</p>
+                    </li>
+                    <li class="program__item">
+                        <p class="program__rules">Photoshoot by professional photographer</p>
+                    </li>
+                    <li class="program__item">
+                        <p class="program__rules">Secret receipt of cooking from Eva</p>
+                    </li>
+                    <li class="program__item">
+                        <p class="program__rules">All products are included in the price</p>
+                    </li>
+                </ul>
+                <a href="#" class="about__link">Read more</a>
+                <ul class="program__wrap">
+                    <li class="program__image">
+                        <picture>
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>               
+                    </li>
+                    <li class="program__image">
+                        <picture>
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>               
+                    </li>
+                    <li class="program__image">
+                        <picture>
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>               
+                    </li>
+                    <li class="program__image">
+                        <picture>
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>               
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Speakers-->
+        <section class="section speakers">
+            <div class="container">
+                <h2 class="section__title">Speakers</h2>
+                <ul class="speakers__list list">
+                    <li class="speakers-card">
+                        <picture class="speakers-card__image">
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>                        
+                        <div class="speakers-card__item">
+                            <h3 class="speakers-card__title">Molly Rivera</h3>
+                            <p class="speakers-card__text">Pastry chef, master chocolatier of Spain</p>
+                        </div>
+                    </li>
+                    <li class="speakers-card">
+                        <picture class="speakers-card__image">
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>                        
+                        <div class="speakers-card__item">
+                            <h3 class="speakers-card__title">Molly Rivera</h3>
+                            <p class="speakers-card__text">Pastry chef, master chocolatier of Spain</p>
+                        </div>
+                    </li>
+                    <li class="speakers-card">
+                        <picture class="speakers-card__image">
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>                        
+                        <div class="speakers-card__item">
+                            <h3 class="speakers-card__title">Molly Rivera</h3>
+                            <p class="speakers-card__text">Pastry chef, master chocolatier of Spain</p>
+                        </div>
+                    </li>
+                    <li class="speakers-card">
+                        <picture class="speakers-card__image">
+                            <source srcset="./image/team-card1-des.jpg 1x, 
+                            ./image/team-card1-des-2x.jpg 2x" 
+                            media="(min-widht: 1200px)" />
+                            <source srcset="./image/team-card1-tab.jpg 1x,
+                            ./image/team-card1-tab-2x.jpg 2x" 
+                            media="(min-widht: 768px)" />
+                            <source srcset="./image/team-card1-mob.jpg 1x,
+                            ./image/team-card1-mob-2x.jpg 2x" 
+                            media="(min-widht: 320px)" />
+                            <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                        </picture>                        
+                        <div class="speakers-card__item">
+                            <h3 class="speakers-card__title">Molly Rivera</h3>
+                            <p class="speakers-card__text">Pastry chef, master chocolatier of Spain</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section price">
+            <div class="container">
+                <h2 class="section__title">Price</h2>
+                <div class="price__card">
+                    <h3 class="speakers-card__title">Easy start</h3>
+                    <ul class="price__list list">
+                        <li class="price__item">
+                            <p>features of yeast dough preparation</p>
+                        </li>
+                        <li class="price__item">
+                            <p>preparation of liquid caramel for stuffing</p>
+                        </li>
+                        <li class="price__item">
+                            <p>preparation of raspberry and strawberry filling</p>
+                        </li>
+                        <li class="price__item">
+                            <p>fry and glaze donuts</p>
+                        </li>
+                        <button data-modal-open type="button" name="button" class="button button__primary">Register</button>
+                </div>
+                <div class="price__card">
+                    <h3 class="speakers-card__title">I want delicious donuts</h3>
+                    <ul class="price__list list">
+                        <li class="price__item">
+                            <p>features of yeast dough preparation</p>
+                        </li>
+                        <li class="price__item">
+                            <p>preparation of liquid caramel for stuffing</p>
+                        </li>
+                        <li class="price__item">
+                            <p>preparation of raspberry and strawberry filling</p>
+                        </li>
+                        <li class="price__item">
+                            <p>melt chocolate for decoration</p>
+                        </li>
+                        <li class="price__item">
+                            <p>fry and glaze donuts</p>
+                        </li>
+                        <li class="price__item">
+                            <p>donut decoration. painting and various techniques</p>
+                        </li>
+                        <button data-modal-open type="button" name="button" class="button button__primary">Register</button>
+                </div>
+                <div class="price__card">
+                    <h3 class="speakers-card__title">Premium</h3>
+                    <ul class="price__list list">
+                        <li class="price__item">
+                            <p>features of yeast dough preparation</p>
+                        </li>
+                        <li class="price__item">
+                            <p>preparation of liquid caramel for stuffing</p>
+                        </li>
+                        <li class="price__item">
+                            <p>preparation of raspberry and strawberry filling</p>
+                        </li>
+                        <li class="price__item">
+                            <p>melt chocolate for decoration</p>
+                        </li><li class="price__item">
+                            <p>fry and glaze donuts</p>
+                        </li>
+                        <li class="price__item">
+                            <p>donut decoration. painting and various techniques</p>
+                        </li>
+                        <li class="price__item">
+                            <p>After party and donut tasting with speakers</p>
+                        </li>
+                        <li class="price__item">
+                            <p>2 private lessons with one of the speakers</p>
+                        </li>
+                        <button data-modal-open type="button" name="button" class="button button__primary">Register</button>
+                </div>
+            </ul>
+            </div>
+        </section>
+
+        <section class="section reviews">
+            <div class="container">
+                <picture class="reviews__image">
+                        <source srcset="./image/team-card1-des.jpg 1x, 
+                        ./image/team-card1-des-2x.jpg 2x" 
+                        media="(min-widht: 1200px)" />
+                        <source srcset="./image/team-card1-tab.jpg 1x,
+                        ./image/team-card1-tab-2x.jpg 2x" 
+                        media="(min-widht: 768px)" />
+                        <source srcset="./image/team-card1-mob.jpg 1x,
+                        ./image/team-card1-mob-2x.jpg 2x" 
+                        media="(min-widht: 320px)" />
+                        <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                    </picture>               
+                <h2 class="reviews__title">Reviews</h2>
+                <p class="reviews__text">Last time I have visited a cooking course by Eva 
+                    I was impressed with the way she explained everything
+                    to people. You can be sure you will manage to cook a delicious dish even if it is your first time in the kitchen!
+                    Thank you so much for the masterclass! Looking forward to the next one and highly recommend it to everyone!</p>
+        </section>
+
+        <section class="section registration">
+            <div class="container">      
+                <h2 class="reviews__title">Registration</h2>
+                <form class="form" autocomlete="0ff">
+                    <p>May 23, 11:00</p>
+                    <p>New York</p>
+                    <p>Apply your personal info
+                        for registration </p>
+                    <label class="form__fild">
+                    <input class="form__input" tape="text" name="name"  placeholder="" />
+                </label>
+                <label class="form__fild">
+                    <input class="form__input" tape="tel" name="tel"  placeholder=""  />
+                    <span class="form__text">Phone number</span>
+                </label>
+                <label class="form__fild">
+                    <input class="form__input" tape="email" name="mail" placeholder="" />
+                    <span class="form__text">Email</span>
+                </label>
+                    <button data-modal-open type="button" name="button" class="button button__primary">Register</button>
+            </form>
+        </section>
+
+        <section class="section contact">
+            <div class="container">      
+                <h2 class="contact__title">Contact</h2>
+                <p>We will answer any question!</p>
+                <form class="form" autocomlete="0ff">
+                    <label class="form__fild">
+                    <input class="form__input" tape="email" name="mail" placeholder="" />
+                    <span class="form__text">Email</span>
+                </label>
+                <label class="form__fild form__fild-textarea">
+                    <textarea class="form__textarea" name="comment" rows="5" placeholder="Введіть текст" ></textarea>
+                    <span class="form__comment">Type your question</span>
+                </label>
+                <button data-modal-open type="button" name="button" class="button button__primary">Send</button>
+            </form>
+            <ul class="social-network list">
+                <li class="social-network__item">
+                    <a href="" class="social-network__footer-link social-network__link">
+                        <svg class="team-icon" width="20px" height="20px">
+                            <use href="./image/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a href="" class="social-network__footer-link social-network__link">
+                        <svg class="social-network__icon" width="20px" height="20px">
+                            <use href="./image/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a href="" class="social-network__footer-link social-network__link">
+                        <svg class="team-icon" width="20px" height="20px">
+                            <use href="./image/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!--Футер-->
+    <footer class="footer">
+        <div class="container container--footer">
+                <address class="info">
+                    <ul class="info__contacts list">
+                        <li class="info__item">
+                            <a href="tel:(910)222-8855" class="info__link">(910)222-8855</a>
+                        </li>
+                        <li class="info__item">
+                            <a href="https://goo.gl/maps/m37v5d8VHXMpui1S7" target="_blank" rel="noopener noreferrer"
+                    class="info__location">New York</a>
+                        </li>
+                    </ul>
+                    <picture class="reviews__image">
+                        <source srcset="./image/team-card1-des.jpg 1x, 
+                        ./image/team-card1-des-2x.jpg 2x" 
+                        media="(min-widht: 1200px)" />
+                        <source srcset="./image/team-card1-tab.jpg 1x,
+                        ./image/team-card1-tab-2x.jpg 2x" 
+                        media="(min-widht: 768px)" />
+                        <source srcset="./image/team-card1-mob.jpg 1x,
+                        ./image/team-card1-mob-2x.jpg 2x" 
+                        media="(min-widht: 320px)" />
+                        <img src="./image/team-card-1.jpg" alt="Ігор Дем'яненко" />
+                    </picture>  
+                </address>
+            </div>
+    </footer>
+        
+            
 <!-- Backdrop -->
 
 <div class="backdrop is-hidden" data-modal>

@@ -1,7 +1,7 @@
 body {
-  color: #757575;
+  color: #3C322D;
   background-color: #FFFFFF;
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
@@ -115,7 +115,7 @@ body {
   font-size: 28px;
   line-height: 1.18;
   text-align: center;
-  color: #212121;
+  color: #3C322D;
 }
 @media screen and (min-width: 1200px) {
   .section__title {
@@ -145,7 +145,7 @@ img {
 
 .logo {
   color: #000000;
-  font-family: Raleway, sans-serif;
+  font-family: Montserrat Alternates, sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
@@ -259,7 +259,7 @@ img {
 .button__filters {
   padding: 6px 22px;
   min-width: 73px;
-  color: #212121;
+  color: #3C322D;
   background-color: #F5F4FA;
   font-weight: 500;
   line-height: 1.62;
@@ -386,7 +386,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: #3C322D;
 }
 @media screen and (min-width: 480px) {
   .mobile-menu__link {
@@ -405,7 +405,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: #3C322D;
 }
 @media screen and (min-width: 480px) {
   .mobile-menu__info {
@@ -527,7 +527,7 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #212121;
+    color: #3C322D;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -590,7 +590,7 @@ img {
     line-height: 1.16;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: #3C322D;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -679,6 +679,31 @@ img {
     max-width: 696px;
   }
 }
+.hero__text {
+  margin: auto;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 360px;
+}
+@media screen and (min-width: 480px) {
+  .hero__text {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__text {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
+}
 
 .feature__list {
   display: flex;
@@ -716,7 +741,7 @@ img {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
-  color: #212121;
+  color: #3C322D;
   font-weight: 700;
   line-height: 1.14;
 }
@@ -813,7 +838,7 @@ img {
 .team-card__title {
   margin-top: 0;
   margin-bottom: 10px;
-  color: #212121;
+  color: #3C322D;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -950,7 +975,7 @@ img {
 .project__title {
   margin-top: 0;
   margin-bottom: 4px;
-  color: #212121;
+  color: #3C322D;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -959,7 +984,7 @@ img {
 .project__text {
   margin-top: 0;
   margin-bottom: 0;
-  color: #757575;
+  color: #3C322D;
   font-size: 16px;
   line-height: 1.87;
 }
@@ -1091,7 +1116,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #2F303A;
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
   line-height: 1.25;
 }
@@ -1193,7 +1218,7 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
-  color: #212121;
+  color: #3C322D;
 }
 
 .form {
@@ -1318,7 +1343,7 @@ img {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  border: 2px solid #757575;
+  border: 2px solid #3C322D;
   border-radius: 2px;
 }
 .chekbox__text {

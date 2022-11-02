@@ -1,12 +1,12 @@
 
 body {
     color: $primary-text-color;
-    background-color: $white-color;
+    // background-color: $white-color;
 
     font-family: $base-font-family;
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 1.71;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
 }
 
 .list {
@@ -110,11 +110,10 @@ body {
         margin-top: 0;
         margin-bottom: 30px;
 
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 1.18;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.21;
         text-align: center;
-        color: $title-text-color; 
 
         @include desktop {
             font-size: 36px;

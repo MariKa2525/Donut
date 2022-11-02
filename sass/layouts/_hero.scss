@@ -57,26 +57,43 @@
     }
 
     &__title {
+        max-width: 360px;
         margin: auto;
         margin-bottom: 30px;
         
-        color: $white-color;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 20px;
-        line-height: 1.61;
+        color: $primary-text-color;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.21;
+        letter-spacing: -0.03em;
         text-align: center;
-        letter-spacing: 0.06em;
         text-transform: uppercase;
-        max-width: 360px;
         
-        @include mobile {
-            font-size: 26px;
+        
+        @include tablet {
+            font-size: 30px;
+            line-height: 1.23;
         }
 
         @include desktop {
-            font-size: 44px;
-            line-height: 1.36;
+            font-size: 60px;
+            line-height: 1.08;
+            max-width: 696px;
+        }
+    }
+
+    &__text {
+        margin: auto;
+        margin-bottom: 30px;
+        max-width: 360px;
+                
+        @include mobile {
+            
+        }
+
+        @include desktop {
+            font-size: 24px;
+            line-height: 1.21;
             max-width: 696px;
         }
     }
