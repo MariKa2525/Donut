@@ -1,8 +1,8 @@
 
 body {
     color: $primary-text-color;
-    // background-color: $white-color;
-
+    background-color: $background-color;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: $base-font-family;
     font-weight: 400;
     font-size: 16px;
@@ -17,101 +17,10 @@ body {
     }
 }
 
-.list {
-    padding: 0;
-    margin: 0;
-    list-style: none;  
-}
-
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto;
-
-    @include mobile {
-        width: 480px;
-    }
-    @include tablet {
-        width: 768px;
-    }
-    @include desktop {
-        width: 1200px;
-    }
-
-    &--header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-left: 15px;
-        padding-right: 15px;
-        
-        @include desktop {
-            max-width: 1200px;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
-    &--mobile-menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-        padding: 0;
-    }
-
-    &--hero {
-        text-align: center;
-
-        @include tablet {
-            padding: 118px 204px;
-        }
-    }
-
-    &--footer {
-        display: block;
-        text-align: center;
-        width: 100%;
-
-        @include tablet {
-            display: flex;
-            align-items: baseline;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 60px;
-        }
-
-        @include desktop {
-            text-align: left;
-            flex-wrap: nowrap;
-            margin-left: auto;
-            margin-right: auto;
-            gap: 0;
-        }
-    }
-}
-
 .section {
-    padding: 60px 0;
+    // padding: 60px 0;
     @include desktop {
         padding: 94px 0;;
-    }
-
-    &--feature {
-        @include desktop {
-            padding-bottom: 0;
-        }
-    }
-
-    &--team {
-        background-color: $light-gray-bg;
-    }
-
-    &.no-padding {
-        padding-top: 0;
-        padding-bottom: 0;
     }
 
     &__title {
@@ -130,6 +39,31 @@ body {
     }
 }
 
+
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    @include mobile {
+        max-width: 480px;
+    }
+    @include tablet {
+        max-width: 768px;
+    }
+    @include desktop {
+        max-width: 1200px;
+    }
+
+   
+}
+
+
 .title-hidden {
     position: absolute;
     width: 1px;
@@ -139,6 +73,12 @@ body {
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;  
 }
 
 img {
@@ -153,6 +93,8 @@ img {
     font-size: 16px;
     line-height: 1.25;
     color: $primary-text-color;
+    text-decoration: none;
+    margin-right: auto;
 
     @include tablet {
         font-size: 18px;

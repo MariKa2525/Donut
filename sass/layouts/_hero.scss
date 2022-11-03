@@ -1,15 +1,13 @@
 .hero {
     display: flex;
-    padding: 118px 0;
+    padding: 20px 0 8px;
     align-items: center;
     width: 100%;
     max-width: 1600px;
-    height: 400px;
-    margin: 0 auto;
+    margin-bottom: 20px;
     
-    background-color: $background-hero;
-    background-image: $gradient,
-    url(../image/glazed-donuts-mob.jpg);
+    background-color: $primary-text-color;
+    background-image: url(../image/glazed-donuts-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,58 +15,39 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: linear-gradient( to right,
-    rgba(47, 48, 58, 0.5),
-    rgba(47, 48, 58, 0.5)),
-    url(../image/glazed-donuts-mob-2x.jpg);
+    background-image: url(../image/glazed-donuts-mob-2x.jpg);
     }
     
     @include tablet {
-    background-image: linear-gradient( to right,
-    rgba(47, 48, 58, 0.5),
-    rgba(47, 48, 58, 0.5)),
-    url(../image/glazed-donuts-tab.jpg);
+    background-image: url(../image/glazed-donuts-tab.jpg);
     
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: linear-gradient( to right,
-    rgba(47, 48, 58, 0.5),
-    rgba(47, 48, 58, 0.5)),
-    url(../image/glazed-donuts-tab-2x.jpg);
+    background-image: url(../image/glazed-donuts-tab-2x.jpg);
     }
     }
 
     @include desktop {
-    background-image: linear-gradient( to right,
-    rgba(47, 48, 58, 0.5),
-    rgba(47, 48, 58, 0.5)),
-    url(../image/glazed-donuts-des.jpg);
+    background-image: url(../image/glazed-donuts-des.jpg);
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: linear-gradient( to right,
-    rgba(47, 48, 58, 0.5),
-    rgba(47, 48, 58, 0.5)),
-    url(../image/glazed-donuts-des-2x.jpg);
+    background-image: url(../image/glazed-donuts-des-2x.jpg);
     }
     padding: 200px 0;
-    height: 600px;
-    }
+    height: 600px;    }
 
     &__title {
-        max-width: 360px;
         margin: auto;
-        margin-bottom: 30px;
-        
+        margin-bottom: 18px;
+        text-align: center;
+
         color: $primary-text-color;
         font-weight: 600;
         font-size: 28px;
-        line-height: 1.21;
+        line-height: 1.22;
         letter-spacing: -0.03em;
-        text-align: center;
-        text-transform: uppercase;
-        
         
         @include tablet {
             font-size: 30px;
@@ -84,9 +63,10 @@
 
     &__text {
         margin: auto;
-        margin-bottom: 30px;
-        max-width: 360px;
-                
+        margin-bottom: 28px;
+        text-align: center;
+
+        
         @include mobile {
             
         }
