@@ -1,23 +1,36 @@
-.section {
-}
 .speakers {
 }
-.container {
-}
-.section__title {
+
+.speakers__title {
+    margin-bottom: 12px;
 }
 .speakers__list {
+    display: flex;
+    width: calc((100% - 20px) / 2);
+    flex-wrap: wrap;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    gap: 21px;
 }
-.list {
-}
+
 .speakers-card {
+    
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
 }
 .speakers-card__image {
+    width: 130px;
+    margin-bottom: 12px;
+
 }
 .speakers-card__item {
 }
 .speakers-card__title {
+    margin-bottom: 12px;
     font-weight: 600;
+
     
 
 

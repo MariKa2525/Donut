@@ -1,0 +1,34 @@
+.program {
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+.program__title {
+}
+.program__text {
+    margin-bottom: 10px;
+}
+.program__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.program__item {
+   
+    
+}
+.program__rules {
+}
+
+.program__wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.program__image {
+    width: 130px;
+    height: 130px;
+}
