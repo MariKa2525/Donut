@@ -1,4 +1,5 @@
 .speakers {
+    margin-bottom: 33px;
 }
 
 .speakers__title {
@@ -6,19 +7,19 @@
 }
 .speakers__list {
     display: flex;
-    width: calc((100% - 20px) / 2);
+    
     flex-wrap: wrap;
     // flex-direction: column;
     // justify-content: center;
     // align-items: center;
-    gap: 21px;
+    gap: 20px;
 }
 
 .speakers-card {
-    
+    width: calc((100% - 20px) / 2);
     margin-top: 0;
     text-align: center;
-    width: 100%;
+    
 }
 .speakers-card__image {
     width: 130px;

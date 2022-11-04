@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   color: #3C322D;
   background-color: #FBFBFB;
@@ -45,10 +46,10 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   margin: 0 auto;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -582,21 +583,24 @@ address {
   height: 130px;
 }
 
+.speakers {
+  margin-bottom: 33px;
+}
+
 .speakers__title {
   margin-bottom: 12px;
 }
 
 .speakers__list {
   display: flex;
-  width: calc((100% - 20px) / 2);
   flex-wrap: wrap;
-  gap: 21px;
+  gap: 20px;
 }
 
 .speakers-card {
+  width: calc((100% - 20px) / 2);
   margin-top: 0;
   text-align: center;
-  width: 100%;
 }
 
 .speakers-card__image {
@@ -632,8 +636,31 @@ address {
   }
 }
 
+.price {
+  padding-top: 6px;
+  margin-bottom: 19px;
+}
+
 .price__title {
   font-weight: 600;
+  margin-bottom: 27px;
+}
+
+.price__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.price-сard {
+  margin-top: 0;
+  width: 100%;
+  padding: 20px 18px 20px 8px;
+  border-radius: 25px;
+  background-color: #FAFBFB;
+  box-shadow: 10px 15px 25px 0px rgba(210, 202, 201, 0.45);
 }
 
 .price-card__title {
@@ -641,12 +668,129 @@ address {
   font-size: 18px;
   line-height: 1.22;
   font-family: Montserrat Alternates, sans-serif;
+  margin-bottom: 16px;
+  text-align: center;
 }
 @media screen and (min-width: 1200px) {
   .price-card__title {
     font-size: 20px;
     line-height: 1.2;
   }
+}
+
+.price-card__formula {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviews {
+  padding-top: 21px;
+  margin-bottom: 40px;
+}
+
+.reviews__title {
+  margin-bottom: 27px;
+}
+
+.reviews__image {
+  margin-bottom: 8px;
+}
+
+.reviews__text {
+  text-align: center;
+}
+
+.reviews__title {
+  margin-bottom: 27px;
+}
+
+.reviews-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 8px 32px 8px;
+  border-radius: 10px;
+  box-shadow: 10px 15px 25px 0px rgba(210, 201, 201, 0.45);
+  background-color: #3C322D;
+  background-image: url(../image/topping-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .reviews-form {
+    background-image: url(../image/topping-mob-2x.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews-form {
+    background-image: url(../image/glazed-donuts-tab.jpg);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .reviews-form {
+    background-image: url(../image/glazed-donuts-tab-2x.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews-form {
+    background-image: url(../image/glazed-donuts-des.jpg);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .reviews-form {
+    background-image: url(../image/glazed-donuts-des-2x.jpg);
+  }
+}
+
+.reviews-form__data {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: none;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.reviews-form__city {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: none;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.reviews-form__info {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.reviews-form__fild {
+  width: 100%;
+}
+
+.reviews-form__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.reviews-form__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.22;
+  width: 100%;
+  color: #FFFFFF;
 }
 
 .footer {
